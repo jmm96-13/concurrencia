@@ -12,8 +12,9 @@ public class ProcesoA {
          StringBuilder palabra = new StringBuilder(longitud);
 
          for (int posicion = 0; posicion < longitud; posisicion++) {
-             palabra.append(alfabeto.charAt(aleatorio.nextInt(alfabeto.length())))
+             palabra.append(alfabeto.charAt(aleatorio.nextInt(alfabeto.length())));
          }
+         salida.println(palabra.toString)
+    }
   }
-
 }

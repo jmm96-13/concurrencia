@@ -14,7 +14,7 @@ public class ProcesoA {
          for (int posicion = 0; posicion < longitud; posisicion++) {
              palabra.append(alfabeto.charAt(aleatorio.nextInt(alfabeto.length())));
          }
-         salida.println(palabra.toString)
+         salida.println(palabra.toString);
     }
   }
 }
